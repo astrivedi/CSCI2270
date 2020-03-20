@@ -20,8 +20,8 @@ int main() {
 
   G.pretty_print();
 
-  G.dfs("F");
-  G.dfs("A");
+  G.bfs("A");
+  G.bfs("G");
   
   return 0;
 }
